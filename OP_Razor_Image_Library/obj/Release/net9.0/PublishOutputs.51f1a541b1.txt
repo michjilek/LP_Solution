@@ -1,0 +1,14 @@
+\\192.168.0.11\SalonPricna\OP_Razor_Image_Library.dll
+\\192.168.0.11\SalonPricna\OP_Razor_Image_Library.deps.json
+\\192.168.0.11\SalonPricna\OP_Razor_Image_Library.pdb
+\\192.168.0.11\SalonPricna\Microsoft.AspNetCore.Authorization.dll
+\\192.168.0.11\SalonPricna\Microsoft.AspNetCore.Components.dll
+\\192.168.0.11\SalonPricna\Microsoft.AspNetCore.Components.Forms.dll
+\\192.168.0.11\SalonPricna\Microsoft.AspNetCore.Components.Web.dll
+\\192.168.0.11\SalonPricna\Microsoft.AspNetCore.Metadata.dll
+\\192.168.0.11\SalonPricna\Microsoft.Extensions.DependencyInjection.dll
+\\192.168.0.11\SalonPricna\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+\\192.168.0.11\SalonPricna\Microsoft.Extensions.Logging.Abstractions.dll
+\\192.168.0.11\SalonPricna\Microsoft.Extensions.Options.dll
+\\192.168.0.11\SalonPricna\Microsoft.Extensions.Primitives.dll
+\\192.168.0.11\SalonPricna\Microsoft.JSInterop.dll

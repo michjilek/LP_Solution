@@ -1,0 +1,4 @@
+wwwroot\css\Colors.css
+wwwroot\css\General.css
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Image_Library\wwwroot\css\General.css
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Image_Library\wwwroot\css\Colors.css

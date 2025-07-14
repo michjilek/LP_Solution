@@ -1,0 +1,22 @@
+
+/* Social Sites Group */
+#Social_sites:hover[b-zqk059b1i9] {
+    cursor: pointer;
+}
+
+/* Circle remove*/
+#insta_Circle circle[b-zqk059b1i9],
+#Social_sites:active #circle[b-zqk059b1i9],
+#Social_sites:active #circle_border[b-zqk059b1i9] {
+    fill: var(--TransparentColor) !important;
+    stroke: var(--TransparentColor) !important;
+}
+
+/* Path */
+#insta_logo path[b-zqk059b1i9] {
+    fill: var(--GrayColor) !important;
+}
+
+#Social_sites:active #insta_logo path[b-zqk059b1i9] {
+    fill: var(--Dark--GrayColor) !important;
+}
