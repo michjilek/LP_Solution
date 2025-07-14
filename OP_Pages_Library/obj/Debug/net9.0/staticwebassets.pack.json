@@ -1,0 +1,241 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\OP_Pages_Library.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OP_Pages_Library.9ney34kuwl.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\css\\general.css",
+      "PackagePath": "staticwebassets\\css\\general.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Cormorant\\Cormorant-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Cormorant\\Cormorant-Bold.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Cormorant\\Cormorant-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Cormorant\\Cormorant-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Cormorant\\Cormorant-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Cormorant\\Cormorant-Italic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Cormorant\\Cormorant-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Cormorant\\Cormorant-Light.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Cormorant\\Cormorant-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Cormorant\\Cormorant-LightItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Cormorant\\Cormorant-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Cormorant\\Cormorant-Medium.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Cormorant\\Cormorant-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Cormorant\\Cormorant-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Cormorant\\Cormorant-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Cormorant\\Cormorant-Regular.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Cormorant\\Cormorant-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Cormorant\\Cormorant-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Cormorant\\Cormorant-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Cormorant\\Cormorant-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Italic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-LightItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-Thin.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Roboto\\Roboto-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Roboto\\Roboto-ThinItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-Black.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-BlackItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-Bold.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-BoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-ExtraBold.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-ExtraLight.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-Italic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-Light.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-LightItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-Medium.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-MediumItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-Regular.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-Thin.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\fonts\\Urbanist\\Urbanist-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Urbanist\\Urbanist-ThinItalic.ttf"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\images\\info\\info_1.webp",
+      "PackagePath": "staticwebassets\\images\\info\\info_1.webp"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\images\\main_photo\\main_photo.webp",
+      "PackagePath": "staticwebassets\\images\\main_photo\\main_photo.webp"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\images\\main_photo\\main_photo_1024.webp",
+      "PackagePath": "staticwebassets\\images\\main_photo\\main_photo_1024.webp"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\images\\main_photo\\main_photo_1920.webp",
+      "PackagePath": "staticwebassets\\images\\main_photo\\main_photo_1920.webp"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\images\\main_photo\\main_photo_2560.webp",
+      "PackagePath": "staticwebassets\\images\\main_photo\\main_photo_2560.webp"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\images\\main_photo\\main_photo_480.webp",
+      "PackagePath": "staticwebassets\\images\\main_photo\\main_photo_480.webp"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\images\\news\\news_1.old",
+      "PackagePath": "staticwebassets\\images\\news\\news_1.old"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\images\\news\\news_1.webp",
+      "PackagePath": "staticwebassets\\images\\news\\news_1.webp"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\images\\topic_1\\topic_1_full.webp",
+      "PackagePath": "staticwebassets\\images\\topic_1\\topic_1_full.webp"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Pages_Library\\wwwroot\\images\\topic_2_3\\topic_2_3_full.webp",
+      "PackagePath": "staticwebassets\\images\\topic_2_3\\topic_2_3_full.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.OP_Pages_Library.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.OP_Pages_Library.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.OP_Pages_Library.props",
+      "PackagePath": "build\\OP_Pages_Library.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.OP_Pages_Library.props",
+      "PackagePath": "buildMultiTargeting\\OP_Pages_Library.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.OP_Pages_Library.props",
+      "PackagePath": "buildTransitive\\OP_Pages_Library.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

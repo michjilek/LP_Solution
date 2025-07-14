@@ -1,0 +1,10 @@
+﻿@page "/price_list"
+@using OP_Razor_Components_Library.Components.PriceList
+@using OP_Razor_Components_Library.Components.EditableText
+@inject TranslationsService TranslationsService
+
+<h1 class="uppercase-text mb"><EditableText Id="Services_Title_1" EditMode="@EditModeService.IsEditing" /></h1>
+
+<div class="container">
+    <PriceList />
+</div>

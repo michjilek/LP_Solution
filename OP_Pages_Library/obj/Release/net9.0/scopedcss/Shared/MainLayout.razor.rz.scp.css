@@ -1,0 +1,138 @@
+
+.main_container[b-wpgvhdbdti] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container[b-wpgvhdbdti] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px 0px 0px 0px !important;
+}
+
+.outline_1[b-wpgvhdbdti], .outline_2[b-wpgvhdbdti], .outline_3[b-wpgvhdbdti] {
+    width: 100%;
+}
+
+.outline_1[b-wpgvhdbdti] {
+    height: 36.2vh;
+}
+
+.outline_2[b-wpgvhdbdti] {
+    height: 13vh;
+}
+
+.outline_3[b-wpgvhdbdti] {
+    height: 70px;
+}
+
+.top-bar[b-wpgvhdbdti] {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 75px;
+    margin: 0px 0px 8px 0px;
+}
+
+.cosmetics-image[b-wpgvhdbdti] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    z-index: -2;
+}
+
+.gradient-overlay[b-wpgvhdbdti] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(white, var(--SilverColor));
+    z-index: -1;
+}
+
+.logo[b-wpgvhdbdti] {
+    width: 200px;
+    margin-top: 2px;
+}
+
+/* Social media */
+.social-media[b-wpgvhdbdti] {
+    display: flex;
+    justify-content: end;
+    padding: 0px 0;
+    border-bottom: 1px solid #C7C7C7;
+    height: 39px;
+    align-items: center;
+}
+
+#facebook_div[b-wpgvhdbdti], #instagram_div[b-wpgvhdbdti] {
+    margin: 0 5px;
+}
+
+#facebook_div[b-wpgvhdbdti] {
+    width: 17px;
+    vertical-align: middle;
+}
+
+#instagram_div[b-wpgvhdbdti] {
+    width: 25px;
+    vertical-align: middle;
+}
+
+/* MEDIA */
+/* 320px – Mobilní telefony (malé displeje) */
+@media (min-width: 320px) {
+    .top-bar[b-wpgvhdbdti] {
+        padding-left: 10px;
+    }
+}
+
+/* 480px – Mobilní telefony (větší displeje) */
+/*@media (min-width: 480px) {
+    .top-bar {
+        background-image: linear-gradient(#00000099, #00000099), url('images/sminky/sminky_1024.webp');
+    }
+}*/
+/* 768px – Tablety (portrét) */
+@media (min-width: 768px) {
+    .top-bar[b-wpgvhdbdti] {
+        padding: 20px;
+    }
+}
+/* 1024px – Tablety (na šířku), malé notebooky */
+@media (min-width: 1024px) {
+    .top-bar[b-wpgvhdbdti] {
+    /*    background-image: linear-gradient(#00000099, #00000099), url('images/sminky/sminky_1920.webp');*/
+        margin-top: 8px;
+        height: 82px;
+        padding: 30px;
+    }
+}
+/* 1280px – Středně velké obrazovky (notebooky) */
+@media (min-width: 1280px) {
+}
+/* 1440px a více – Velké monitory */
+@media (min-width: 1440px) {
+}
+/* 1600px – Vyšší rozlišení
+ */
+
+/* 1920px – Full HD
+ */
+/*@media (min-width: 1920px) {
+    .top-bar {
+        background-image: linear-gradient(#00000099, #00000099), url('images/sminky/sminky_2560.webp');
+    }
+}*/
+/* 2560px – 2K
+ */
+@media (min-width: 2560px) {
+}

@@ -1,0 +1,56 @@
+﻿@using OP_Pages_Library.Pages;
+@using OP_Razor_Components_Library.Components.LanguageSwitcher
+@using OP_Razor_Components_Library.Components.OnlineStatusIndicator
+@using OP_Razor_Components_Library.Components.Navigation
+@using OP_Razor_Components_Library.Components.Footer
+@using OP_Razor_Image_Library.Social_sites
+@using Serilog;
+@using OP_Shared_Library.Services
+@using Microsoft.AspNetCore.Components.Authorization
+@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+@inject EditModeService EditModeService
+
+<div class="main_container">
+    <div id="header_div_right">
+        @*  <OnlineStatusIndicator IsOnlineChanged="isOnline => OnlineStatusChanged(isOnline)" /> *@
+        @* <LanguageSwitcher CurrentLanguage="@currentLang" LanguageChanged="OnLanguageChanged" /> *@
+    </div>
+    <div class="social-media">
+        @*  <div id="facebook_div">
+            <a href="https://www.facebook.com/salonpricna" target="_blank"><Facebook /></a>
+        </div>
+        <div id="instagram_div">
+            <a href="https://www.instagram.com/salon.pricna" target="_blank"><Instagram /></a>
+        </div> *@
+    </div>
+
+    <div class="container">
+        <div class="top-bar">
+            <img src="_content/OP_Pages_Library/images/main_photo/main_photo_2560.webp"
+                 srcset="_content/OP_Pages_Library/main_photo/main_photo_480.webp 480w,
+                         _content/OP_Pages_Library/images/main_photo/main_photo_1024.webp 1024w,
+                         _content/OP_Pages_Library/images/main_photo/main_photo_1920.webp 1920w"
+                 alt="cosmetics_image"
+                 class="cosmetics-image"
+                 fetchpriority="high" />
+            <div class="gradient-overlay"></div>
+                <div class="logo-edit-wrapper">
+                    <div class="logo">
+                        <a href="/"><Logo /></a>
+                    </div>
+                    <div id="header_div_right">
+                        <button @onclick="ToggleEditMode"
+                                class="edit-toggle-button @(EditModeService.IsEditing ? "active" : "")">
+                            @(EditModeService.IsEditing ? "DISABLE EDIT" : "ENABLE EDIT")
+                        </button>
+                    </div>
+                </div>
+            <Navigation />
+        </div>
+    </div>
+    <article class="mb">
+        @Body
+    </article>
+    <Footer />
+</div>

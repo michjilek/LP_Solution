@@ -1,0 +1,311 @@
+/* _content/OP_Razor_Components_Library/Components/Footer/Footer.razor.rz.scp.css */
+
+.footer[b-f4vihq8m5e] {
+    text-align: center;
+    width: 100%;
+    align-content: end;
+    flex: 1;
+}
+
+.footer_hr[b-f4vihq8m5e] {
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.footer_p[b-f4vihq8m5e] {
+    font-family: Roboto;
+    color: #aaa;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 0.6rem;
+    transform: scaleY(0.9);
+}
+
+.footer-year[b-f4vihq8m5e] {
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* MEDIA */
+@media (min-width: 768px) {
+    .footer_p[b-f4vihq8m5e] {
+        font-size: 0.8rem;
+        margin-top: 30px;
+    }
+}
+/* _content/OP_Razor_Components_Library/Components/Navigation/Navigation.razor.rz.scp.css */
+
+.navbar[b-aj7cj7x4rh] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    z-index: 10;
+    font-family: Roboto !important;
+}
+
+  [b-aj7cj7x4rh] .navbar a, [b-aj7cj7x4rh] .nav-item {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+.navbar-right[b-aj7cj7x4rh] {
+    display: none;
+    gap: 10px;
+}
+
+.navbar-toggler[b-aj7cj7x4rh] {
+    display: block;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 0;
+}
+
+.mobile-menu[b-aj7cj7x4rh] {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 124%;
+    right: -10px;
+    background-color: var(--DarkGrayColor) !important;
+    padding: 0px 10px;
+}
+
+   [b-aj7cj7x4rh] .mobile-menu .nav-item {
+        display: flex;
+        flex: 1;
+        padding: 20px 50px;
+        border-bottom: 1px solid #444;
+        text-align: center;
+    }
+
+        .mobile-menu .nav-item:last-child[b-aj7cj7x4rh] {
+            border: none;
+        }
+
+/* MEDIA */
+/* 320px – Mobilní telefony (malé displeje) */
+@media (min-width: 320px) {
+}
+
+/* 480px – Mobilní telefony (větší displeje) */
+@media (min-width: 480px) {
+}
+/* 768px – Tablety (portrét) */
+@media (min-width: 768px) {
+    .mobile-menu[b-aj7cj7x4rh] {
+        right: -20px;
+    }
+}
+/* 1024px – Tablety (na šířku), malé notebooky */
+@media (min-width: 1024px) {
+    .mobile-menu[b-aj7cj7x4rh] {
+        right: -30px;
+        margin-top: 4px;
+    }
+
+    .navbar-right[b-aj7cj7x4rh] {
+        display: inline;
+    }
+
+    .navbar-toggler[b-aj7cj7x4rh] {
+        display: none;
+    }
+}
+/* 1280px – Středně velké obrazovky (notebooky) */
+@media (min-width: 1280px) {
+}
+/* 1440px a více – Velké monitory */
+@media (min-width: 1440px) {
+}
+/*@media (max-width: 768px) {
+}*/
+/* _content/OP_Razor_Components_Library/Components/OnlineStatusIndicator/OnlineStatusIndicator.razor.rz.scp.css */
+.h3_online[b-x2k99ub3jm], .h3_offline[b-x2k99ub3jm] {
+    font-size: 24px;
+    color: black;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    margin-top: -7px !important;
+}
+
+.h3_offline[b-x2k99ub3jm] {
+    color: palevioletred;
+}
+/* _content/OP_Razor_Components_Library/Components/Photo_Gallery/Photo_Gallery.razor.rz.scp.css */
+*[b-kdj3oedvf2] {
+    outline: none;
+    border: none;
+}
+
+/* Gallery */
+.gallery[b-kdj3oedvf2] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-item[b-kdj3oedvf2] {
+    width: 150px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+    .gallery-item img[b-kdj3oedvf2] {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .gallery-item:hover[b-kdj3oedvf2] {
+        transform: scale(1.05);
+    }
+
+/* Modal Window */
+.modal-overlay[b-kdj3oedvf2] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content[b-kdj3oedvf2] {
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+}
+
+    .modal-content:focus[b-kdj3oedvf2] {
+        outline: none !important;
+        border: none !important;
+    }
+
+.full-image[b-kdj3oedvf2] {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    object-fit: contain;
+}
+
+.image-caption[b-kdj3oedvf2] {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+body.modal-open[b-kdj3oedvf2] {
+    overflow: hidden;
+}
+/* _content/OP_Razor_Components_Library/Components/PriceList/PriceList.razor.rz.scp.css */
+
+.container[b-u6ttm77yqs] {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.table[b-u6ttm77yqs] {
+    border-collapse: collapse;
+    margin: 0px 0;
+}
+
+    .table th[b-u6ttm77yqs], .table td[b-u6ttm77yqs] {
+        border: 1px solid #ddd;
+        padding: 2px;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .table th[b-u6ttm77yqs] {
+        background-color: var(--DarkGrayColor) !important;
+        font-weight: bold;
+        color: white;
+    }
+
+/* MEDIA */
+@media (min-width: 320px) {
+    .table th[b-u6ttm77yqs], .table td[b-u6ttm77yqs] {
+        padding: 4px;
+    }
+}
+
+@media (min-width: 480px) {
+    .table th[b-u6ttm77yqs], .table td[b-u6ttm77yqs] {
+        padding: 8px;
+        text-align: left;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container[b-u6ttm77yqs] {
+        width: 93%;
+    }
+
+    .table td[b-u6ttm77yqs] {
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 2560px) {
+    .table th[b-u6ttm77yqs], .table td[b-u6ttm77yqs] {
+        font-size: 1.1rem;
+    }
+}
+/* _content/OP_Razor_Components_Library/Components/VirtualMirror/VirtualMirror.razor.rz.scp.css */
+
+.camera-container[b-2t5ttxupsd] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+video[b-2t5ttxupsd] {
+    width: 100%;
+    max-width: 500px;
+}
+
+button[b-2t5ttxupsd] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*#result_img {
+    width: 100%;
+    max-width: 500px;
+}*/
+
+#photoCanvas[b-2t5ttxupsd] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 1px solid red;
+    width: 100%;
+    max-width: 500px;
+}

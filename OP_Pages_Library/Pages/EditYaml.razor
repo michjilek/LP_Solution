@@ -1,0 +1,50 @@
+﻿@page "/admin/edit-yaml"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Hosting
+@inject IWebHostEnvironment Env
+@attribute [Authorize]
+
+<h3>Editace cs.yaml</h3>
+
+@if (!string.IsNullOrEmpty(Message))
+{
+    <p>@Message</p>
+}
+
+<textarea @bind="YamlContent" rows="50" cols="100" style="width:100%; font-family: monospace;"></textarea>
+
+<br />
+<button class="btn btn-primary mt_less" @onclick="SaveFile">Uložit</button>
+
+@code {
+    private string YamlContent = string.Empty;
+    private string? Message;
+
+    // Cesta k souboru ve složce wwwroot/data/cs.yaml
+    private string FilePath => Path.Combine(Env.WebRootPath, "data", "cs.yaml");
+
+    protected override void OnInitialized()
+    {
+        if (System.IO.File.Exists(FilePath))
+        {
+            YamlContent = System.IO.File.ReadAllText(FilePath);
+        }
+        else
+        {
+            YamlContent = "# Soubor cs.yaml nebyl nalezen";
+        }
+    }
+
+    private void SaveFile()
+    {
+        try
+        {
+            System.IO.File.WriteAllText(FilePath, YamlContent);
+            Message = "Soubor byl úspěšně uložen.";
+        }
+        catch (Exception ex)
+        {
+            Message = $"Chyba při ukládání: {ex.Message}";
+        }
+    }
+}

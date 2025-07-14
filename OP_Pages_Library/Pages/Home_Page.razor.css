@@ -1,0 +1,378 @@
+﻿
+
+/* MAKE UP SECTION*/
+.makeup-section {
+    position: relative;
+    text-align: center;
+}
+
+.cosmetics-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    justify-content: center;
+}
+
+.content {
+    color: white;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin: 0px auto;
+    max-width: 71.25em;
+}
+
+    .content h2 {
+        font-family: Cormorant, serif;
+        font-weight: normal;
+        font-style: italic;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+
+.line-below {
+    border: none;
+    border-top: 1px solid white;
+}
+
+.content p {
+    font-family: Urbanist;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+}
+
+/* NEWS */
+.news {
+    background-color: #f5f5f5CC;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+    .news .text {
+        margin: 10px auto;
+    }
+
+.news_1 {
+    position: relative;
+    background-image: url('images/news/news_1.webp');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 16 / 7.3;
+    margin: 0 auto;
+}
+
+/* SERVICE*/
+.service {
+    max-width: 600px;
+    text-align: center;
+}
+
+.subtitle, .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: Roboto;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+    color: #aaa;
+    transform: scaleY(0.9);
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 6px;
+    line-height: 1.43;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.43;
+    font-style: italic;
+}
+
+.text {
+    font-size: 1rem !important;
+    line-height: 1.8 !important;
+}
+
+    .text a {
+        text-decoration: none;
+        color: #333;
+    }
+/* SECOND IMAGE*/
+.second_image {
+    min-height: 52vh;
+    width: 100%;
+    background-image: url('images/topic_1/topic_1_full.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+}
+
+/* HALF SERVICES*/
+.half_services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 600px;
+}
+
+.half_service {
+    width: 100%;
+    text-align: center;
+}
+
+/* THIRD IMAGE*/
+.third_image {
+    min-height: 52vh;
+    width: 100%;
+    background-image: url('images/topic_2_3/topic_2_3_full.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* MEDIA */
+@media (min-width: 320px) {
+    .content h1 {
+        font-size: 1.9em;
+    }
+
+    .content h2 {
+        font-size: 1.7em;
+    }
+
+    .content p {
+        font-size: 1.1em;
+    }
+
+    .makeup-section {
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 480px) {
+    .content h1 {
+        font-size: 2.0em;
+    }
+
+    .content h2 {
+        font-size: 1.8em;
+    }
+
+    .content p {
+        font-size: 1.2em;
+    }
+
+    .content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .service, .half_service {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .text {
+        font-size: 1.1rem !important;
+    }
+
+    .second_image {
+        margin-top: 22px;
+    }
+
+    .third_image {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .content h1 {
+        font-size: 2.7em;
+        letter-spacing: 8px;
+    }
+
+    .content h2 {
+        font-size: 2.1em;
+    }
+
+    .content p {
+        font-size: 1.2em;
+        margin-top: 40px;
+    }
+
+    .makeup-section {
+    }
+
+    .content {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .service {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .title {
+        font-size: 2.4rem;
+    }
+
+    .text {
+        font-size: 1.15rem !important;
+    }
+
+    .half_services {
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-between;
+        margin-top: 20px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .half_service {
+        width: 45%;
+        text-align: center;
+    }
+
+        .half_service .title {
+            font-size: 2rem;
+        }
+
+    .footer_p {
+        font-size: 0.8rem;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content h1 {
+        font-size: 4.3em;
+    }
+
+    .content h2 {
+        font-size: 2.5em;
+        margin-top: 40px;
+    }
+
+    .content p {
+        font-size: 1.4em;
+    }
+
+    .text {
+        font-size: 1.2rem !important;
+    }
+
+    .makeup-section {
+        margin: 15px 0px;
+    }
+
+    body {
+        padding: 0px 15px;
+    }
+
+    .service{
+        max-width: 70%;
+    }
+
+    .news {
+        max-width: 70%;
+    }
+
+    .news_1 {
+        width: 60%;
+    }
+
+    .news .text {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .content h1 {
+        font-size: 4.3em;
+    }
+
+    .content h2 {
+        font-size: 3em;
+    }
+
+    .content p {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width: 1440px) {
+    .content h1 {
+        font-size: 4.5em;
+    }
+
+    .content h2 {
+        font-size: 2.8em;
+    }
+
+    .content p {
+        font-size: 1.4em;
+        margin-top: 60px;
+    }
+
+    .service {
+        max-width: 66%;
+    }
+}
+
+@media (min-width: 2560px) {
+    .news .text {
+        max-width: 60%;
+    }
+
+    .service {
+        max-width: 44%;
+    }
+
+    .half_services {
+        max-width: 60%;
+    }
+}

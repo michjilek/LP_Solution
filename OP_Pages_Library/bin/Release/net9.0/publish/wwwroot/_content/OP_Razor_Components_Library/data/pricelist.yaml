@@ -1,0 +1,11 @@
+# Komentář
+- Name: Služba 1
+  Description: Popis služby 1
+- Name: Služba 2
+  Description: Popis služby 2
+- Name: Služba 3
+  Description: | # Další komentář
+        Popis služby 3 - a
+        Popis služby 3 - b
+- Name: Služba 4
+  Description: Popis služby 4

@@ -1,0 +1,74 @@
+﻿@page "/"
+@using OP_Razor_Components_Library.Components.EditableText
+@using OP_Shared_Library.Services
+@inject TranslationsService TranslationsService
+@inject EditModeService EditModeService
+
+@using OP_Razor_Components_Library.Components.Footer
+
+@if (isLoaded)
+{
+    <section class="makeup-section pb">
+        <img src="_content/OP_Pages_Library/images/main_photo/main_photo_2560.webp"
+             srcset="_content/OP_Pages_Library/images/main_photo/main_photo_480.webp 480w,
+                     _content/OP_Pages_Library/images/main_photo/main_photo_1024.webp 1024w,
+                     _content/OP_Pages_Library/images/main_photo/main_photo_1920.webp 1920w"
+             alt="cosmetics_image"
+             class="cosmetics-image"
+             fetchpriority="high" />
+        <div class="overlay">
+            <div class="content">
+                <h2 class="mt"><EditableText Id="Intro_Title_1" EditMode="@EditModeService.IsEditing" /></h2>
+                <hr class="line-below mt">
+                <h1 class="mt"><EditableText Id="Intro_Title_2" EditMode="@EditModeService.IsEditing" /></h1>
+                <hr class="line-below mt">
+                <p class="mt mb">
+                    <EditableText Id="Intro_Title_3" EditMode="@EditModeService.IsEditing" />
+                    <br>
+                    <br>
+                    <EditableText Id="Intro_Title_4" EditMode="@EditModeService.IsEditing" />
+                </p>
+            </div>
+            <div class="news centered mt pt pl pr pb">
+                <p class="subtitle color_dark mb">   <EditableText Id="News" EditMode="@EditModeService.IsEditing" /></p>
+                <div class="news_1"></div>
+                <p class="title mt color_dark uppercase-text">   <EditableText Id="News_Title_1" EditMode="@EditModeService.IsEditing" /></p>
+                <p class="text mt_less color_dark">   <EditableText Id="News_Text_1" EditMode="@EditModeService.IsEditing" /></p>
+                <p class="text mt_less color_dark"><EditableText Id="News_Text_2" EditMode="@EditModeService.IsEditing" /></p>
+            </div>
+        </div>
+    </section>
+    <section class="service centered">
+        <p class="subtitle mt"><EditableText Id="Topic_1_Title_1" EditMode="@EditModeService.IsEditing" /></p>
+        <h1 class="title mt uppercase-text"><EditableText Id="Topic_1_Title_2" EditMode="@EditModeService.IsEditing" /></h1>
+        <p class="description mt"><EditableText Id="Topic_1_Title_3" EditMode="@EditModeService.IsEditing" /></p>
+        <p class="text mt"><EditableText Id="Topic_1_Text_1" EditMode="@EditModeService.IsEditing" /></p>
+        <p class="text mt_less"><EditableText Id="Topic_1_Text_2" EditMode="@EditModeService.IsEditing" /></p>
+    </section>
+    <div class="second_image mt"></div>
+    <div class="half_services">
+        <div class="half_service">
+            <p class="subtitle mt"><EditableText Id="Topic_2_Title_1" EditMode="@EditModeService.IsEditing" /></p>
+            <h1 class="title mt"><EditableText Id="Topic_2_Title_2" EditMode="@EditModeService.IsEditing" /></h1>
+            <p class="text mt"><EditableText Id="Topic_2_Text_1" EditMode="@EditModeService.IsEditing" /></p>
+            <p class="text mt_less">
+                <EditableText Id="Topic_2_Text_2" EditMode="@EditModeService.IsEditing" />
+            </p>
+            <p class="text mt_less">
+                <EditableText Id="Topic_2_Text_3" EditMode="@EditModeService.IsEditing" />
+            </p>
+        </div>
+        <div class="half_service">
+            <p class="subtitle mt"><EditableText Id="Topic_3_Title_1" EditMode="@EditModeService.IsEditing" /></p>
+            <h1 class="title mt"><EditableText Id="Topic_3_Title_2" EditMode="@EditModeService.IsEditing" /></h1>
+            <p class="text mt"><EditableText Id="Topic_3_Text_1" EditMode="@EditModeService.IsEditing" /></p>
+            <p class="text mt_less">
+                <EditableText Id="Topic_3_Text_2" EditMode="@EditModeService.IsEditing" />
+            </p>
+            <p class="text mt_less">
+                <EditableText Id="Topic_3_Text_3" EditMode="@EditModeService.IsEditing" />
+            </p>
+        </div>
+    </div>
+    <div class="third_image mt"></div>
+}

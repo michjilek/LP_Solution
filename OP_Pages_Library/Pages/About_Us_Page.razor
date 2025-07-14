@@ -1,0 +1,49 @@
+﻿@page "/about_us"
+@using OP_Razor_Components_Library.Components.EditableText
+@using OP_Razor_Components_Library.Components.Footer
+@using OP_Shared_Library.Services
+@inject TranslationsService TranslationsService
+@inject EditModeService EditModeService
+
+@if (isLoaded)
+{
+    <h1 class="uppercase-text mb"><EditableText Id="About_us_title" EditMode="@EditModeService.IsEditing" /></h1>
+
+    <div class="container_about">
+        <div class="content_about">
+            <div class="image_about" />
+            <div class="text_about">
+                <p><EditableText Id="About_us_text_1" EditMode="@EditModeService.IsEditing" /></p>
+                <p><EditableText Id="About_us_text_2" EditMode="@EditModeService.IsEditing" /></p>
+                <p><EditableText Id="About_us_text_3" EditMode="@EditModeService.IsEditing" /></p>
+                <p><EditableText Id="About_us_text_4" EditMode="@EditModeService.IsEditing" /></p>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    #region Private Properties
+    private bool isLoaded = false;
+    #endregion
+
+    #region Ctor
+    protected override async Task OnInitializedAsync()
+    {
+        await TranslationsService.LoadAsync();
+
+        // Register On Edit Change Text
+        EditModeService.OnEditModeChanged += HandleEditModeChanged;
+
+        isLoaded = true;
+    }
+    #endregion
+
+    #region Handle
+    private void HandleEditModeChanged()
+    {
+        // Redraw the component when the edit mode changes
+        InvokeAsync(StateHasChanged);
+    }
+    #endregion
+}

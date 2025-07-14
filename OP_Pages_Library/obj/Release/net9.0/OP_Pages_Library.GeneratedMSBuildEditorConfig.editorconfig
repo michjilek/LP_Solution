@@ -1,0 +1,49 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = OP_Pages_Library
+build_property.RootNamespace = OP_Pages_Library
+build_property.ProjectDir = D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Pages_Library\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Pages_Library
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/OneDrive/OP/OP_projects/LP/VS_Project/OP_Pages_Library/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/OneDrive/OP/OP_projects/LP/VS_Project/OP_Pages_Library/Pages/About_Us_Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRfVXNfUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ndj24lueb8
+
+[D:/OneDrive/OP/OP_projects/LP/VS_Project/OP_Pages_Library/Pages/EditYaml.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFlhbWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hd5bxfrql3
+
+[D:/OneDrive/OP/OP_projects/LP/VS_Project/OP_Pages_Library/Pages/Home_Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZV9QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-rwpe6uknl2
+
+[D:/OneDrive/OP/OP_projects/LP/VS_Project/OP_Pages_Library/Pages/Photo_Gallery_Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGhvdG9fR2FsbGVyeV9QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-o88b2epp4l
+
+[D:/OneDrive/OP/OP_projects/LP/VS_Project/OP_Pages_Library/Pages/Price_List_Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpY2VfTGlzdF9QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-w29hlp2b24
+
+[D:/OneDrive/OP/OP_projects/LP/VS_Project/OP_Pages_Library/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wpgvhdbdti
