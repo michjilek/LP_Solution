@@ -1,0 +1,13 @@
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\OP_Db.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\OP_Db.deps.json
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\OP_Db.pdb
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\Microsoft.EntityFrameworkCore.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\Microsoft.Extensions.Caching.Abstractions.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\Microsoft.Extensions.Caching.Memory.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\Microsoft.Extensions.DependencyInjection.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\Microsoft.Extensions.Logging.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\Microsoft.Extensions.Logging.Abstractions.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\Microsoft.Extensions.Options.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\bin\Release\net9.0\publish\Microsoft.Extensions.Primitives.dll
