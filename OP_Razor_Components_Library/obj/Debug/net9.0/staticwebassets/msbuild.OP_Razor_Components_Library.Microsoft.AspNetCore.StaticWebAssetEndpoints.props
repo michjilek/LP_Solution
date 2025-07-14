@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/OP_Razor_Components_Library/data/pricelist.4mezzxlpfn.yaml">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\pricelist.yaml'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4mezzxlpfn"},{"Name":"integrity","Value":"sha256-vOsEcXZHpvQXsBbY\u002BNpQ1CPpjPaYyBkGG8reqh2ex0M="},{"Name":"label","Value":"_content/OP_Razor_Components_Library/data/pricelist.yaml"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"281"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022vOsEcXZHpvQXsBbY\u002BNpQ1CPpjPaYyBkGG8reqh2ex0M=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 12:23:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OP_Razor_Components_Library/data/pricelist.yaml">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\pricelist.yaml'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vOsEcXZHpvQXsBbY\u002BNpQ1CPpjPaYyBkGG8reqh2ex0M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"281"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022vOsEcXZHpvQXsBbY\u002BNpQ1CPpjPaYyBkGG8reqh2ex0M=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 12:23:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OP_Razor_Components_Library/js/VirtualMirror/VirtualMirror.3k4kdlfgjd.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\VirtualMirror\VirtualMirror.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3k4kdlfgjd"},{"Name":"integrity","Value":"sha256-E\u002BWnKhtydtJbIQ1KcTMRyFb0UnOx516d9UAO91GkJH0="},{"Name":"label","Value":"_content/OP_Razor_Components_Library/js/VirtualMirror/VirtualMirror.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2293"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022E\u002BWnKhtydtJbIQ1KcTMRyFb0UnOx516d9UAO91GkJH0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 29 Dec 2024 17:52:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OP_Razor_Components_Library/js/VirtualMirror/VirtualMirror.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\VirtualMirror\VirtualMirror.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E\u002BWnKhtydtJbIQ1KcTMRyFb0UnOx516d9UAO91GkJH0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2293"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022E\u002BWnKhtydtJbIQ1KcTMRyFb0UnOx516d9UAO91GkJH0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 29 Dec 2024 17:52:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OP_Razor_Components_Library/OP_Razor_Components_Library.3gdf5rcoo4.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\OP_Razor_Components_Library.3gdf5rcoo4.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3gdf5rcoo4"},{"Name":"integrity","Value":"sha256-Ld3ict6AiIy2zOKqFXQxIl9SJMkbrWm0sVXLbkZ3\u002BSk="},{"Name":"label","Value":"_content/OP_Razor_Components_Library/OP_Razor_Components_Library.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7220"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Ld3ict6AiIy2zOKqFXQxIl9SJMkbrWm0sVXLbkZ3\u002BSk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Jul 2025 19:39:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OP_Razor_Components_Library/OP_Razor_Components_Library.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\OP_Razor_Components_Library.3gdf5rcoo4.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ld3ict6AiIy2zOKqFXQxIl9SJMkbrWm0sVXLbkZ3\u002BSk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7220"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Ld3ict6AiIy2zOKqFXQxIl9SJMkbrWm0sVXLbkZ3\u002BSk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Jul 2025 19:39:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

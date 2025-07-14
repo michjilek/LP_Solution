@@ -1,0 +1,107 @@
+[
+  {
+    "Name": "Permanentní make-up",
+    "Description": "",
+    "Price": ""
+  },
+  {
+    "Name": "- Obočí",
+    "Description": "Obočí ('Microblading', 'Shading')",
+    "Price": "3 900 Kč"
+  },
+  {
+    "Name": "",
+    "Description": "Kombinované obočí",
+    "Price": "4 500 Kč"
+  },
+  {
+    "Name": " - Linky",
+    "Description": "Linky horní",
+    "Price": "2 500 Kč"
+  },
+  {
+    "Name": "",
+    "Description": "Linky dolní",
+    "Price": "1 500 Kč"
+  },
+  {
+    "Name": "",
+    "Description": "Linky horní stínované 'Shading'",
+    "Price": "3 900 Kč"
+  },
+  {
+    "Name": "- Rty",
+    "Description": "Rty kontura",
+    "Price": "2 900 Kč"
+  },
+  {
+    "Name": "",
+    "Description": "Rty kontura se stínováním (plné rty)",
+    "Price": "3 900 Kč"
+  },
+  {
+    "Name": "- Korekce",
+    "Description": "1 Korekce (do 2 měsíců od první aplikace)",
+    "Price": "1 000 Kč"
+  },
+  {
+    "Name": "",
+    "Description": "2 Korekce (do 5 měsíců od první aplikace)",
+    "Price": "1 500 Kč"
+  },
+  {
+    "Name": "- Oživení pigmentu do 1,5 roku",
+    "Description": "(od vaší poslední aplikace korekce)",
+    "Price": "50% základní ceny"
+  },
+  {
+    "Name": "Řasy",
+    "Description": "",
+    "Price": ""
+  },
+  {
+    "Name": "- Nové řasy",
+    "Description": "",
+    "Price": "1 500 Kč"
+  },
+  {
+    "Name": "- Doplnění do:",
+    "Description": "",
+    "Price": ""
+  },
+  {
+    "Name": "",
+    "Description": "2 týdnů",
+    "Price": "600 Kč"
+  },
+  {
+    "Name": "",
+    "Description": "3 týdnů",
+    "Price": "650 Kč"
+  },
+  {
+    "Name": "",
+    "Description": "4 týdnů",
+    "Price": "700 Kč"
+  },
+  {
+    "Name": "",
+    "Description": "5týdnů a víc",
+    "Price": "jako 'Nové řasy'"
+  },
+  {
+    "Name": "- Odstranění řas",
+    "Description": "",
+    "Price": "400 Kč"
+  },
+  {
+    "Name": "Chemický peeling",
+    "Description": "",
+    "Price": "1 000 Kč"
+  },
+  {
+    "Name": "",
+    "Description": "- Balíček",
+    "Price": "4 + 1 zdarma"
+  }
+]

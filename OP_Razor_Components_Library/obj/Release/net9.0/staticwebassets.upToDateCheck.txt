@@ -1,0 +1,3 @@
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Components_Library\wwwroot\js\VirtualMirror\VirtualMirror.js
+wwwroot\data\pricelist.yaml
+wwwroot\js\VirtualMirror\VirtualMirror.js

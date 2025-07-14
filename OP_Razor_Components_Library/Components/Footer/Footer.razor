@@ -1,0 +1,41 @@
+﻿@using OP_Razor_Components_Library.Components.EditableText
+@using OP_Shared_Library.Services
+@inject TranslationsService TranslationsService
+@inject EditModeService EditModeService
+
+@if (isLoaded)
+{
+    <div class="footer centered">
+        <p class="subtitle mt"><EditableText Id="Street" EditMode="@EditModeService.IsEditing" /></p>
+        <h1 class="title mt_less"><EditableText Id="City" EditMode="@EditModeService.IsEditing" /></h1>
+        <p class="text mt_less">Tel.: <EditableText Id="Mobile" EditMode="@EditModeService.IsEditing" /></p>
+        <p class="text">Email: <EditableText Id="Email" EditMode="@EditModeService.IsEditing" /></p>
+        <hr class="footer_hr mt">
+        <p class="footer_p mt">© <EditableText Id="Company_Name" EditMode="@EditModeService.IsEditing" /></p>
+        <p class="footer-year mt_less pb"><EditableText Id="Actual_Year" EditMode="@EditModeService.IsEditing" /></p>
+    </div>
+}
+
+@code {
+    #region Private Properties
+    private bool isLoaded = false;
+    #endregion
+
+    #region Ctor
+    protected override async Task OnInitializedAsync()
+    {
+        await TranslationsService.LoadAsync();
+
+        EditModeService.OnEditModeChanged += HandleEditModeChanged;
+
+        isLoaded = true;
+    }
+    #endregion
+
+    #region Handle
+    private void HandleEditModeChanged()
+    {
+        InvokeAsync(StateHasChanged);
+    }
+    #endregion
+}

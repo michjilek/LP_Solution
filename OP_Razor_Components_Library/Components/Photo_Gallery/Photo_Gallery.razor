@@ -1,0 +1,25 @@
+﻿@inject TranslationsService TranslationsService
+
+<div  class="gallery">
+    @foreach (var image in ImagePaths)
+    {
+        <div class="gallery-item" @onclick="() => OpenImage(image)">
+            <img src="@image.ImagePath" alt="Gallery Image">
+ @*            <p class="mt_less">@image.ImageAlt</p> *@
+        </div>
+    }
+</div>
+
+@if (IsModalOpen)
+{
+    <div class="modal-overlay" @onclick="CloseModal">
+        <div class="modal-content" tabindex="0"
+             @onkeydown="Move"
+             @ontouchstart="HandleTouchStart"
+             @ontouchend="HandleTouchEnd"
+             >
+            <img src="@SelectedImage.ImagePath" alt="Full Image" class="full-image" />
+            <p class="image-caption mt_less">@SelectedImage.ImageAlt</p>
+        </div>
+    </div>
+}

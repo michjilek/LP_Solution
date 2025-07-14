@@ -1,0 +1,36 @@
+
+.footer[b-f4vihq8m5e] {
+    text-align: center;
+    width: 100%;
+    align-content: end;
+    flex: 1;
+}
+
+.footer_hr[b-f4vihq8m5e] {
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.footer_p[b-f4vihq8m5e] {
+    font-family: Roboto;
+    color: #aaa;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 0.6rem;
+    transform: scaleY(0.9);
+}
+
+.footer-year[b-f4vihq8m5e] {
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* MEDIA */
+@media (min-width: 768px) {
+    .footer_p[b-f4vihq8m5e] {
+        font-size: 0.8rem;
+        margin-top: 30px;
+    }
+}

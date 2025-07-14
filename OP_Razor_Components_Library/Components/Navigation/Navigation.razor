@@ -1,0 +1,61 @@
+﻿@using OP_Razor_Components_Library.Components.EditableText
+@using OP_Shared_Library.Services
+@inject TranslationsService TranslationsService
+@inject EditModeService EditModeService
+
+@if (isLoaded)
+{
+    <nav class="navbar">
+        <div class="navbar-right">
+            <NavLink href="/photo_gallery" class="nav-item uppercase-text"><EditableText Id="Photogallery_menu_item" EditMode="@EditModeService.IsEditing" /></NavLink>
+            <NavLink href="/price_list" class="nav-item uppercase-text"><EditableText Id="Services_menu_item" EditMode="@EditModeService.IsEditing" /></NavLink>
+            <NavLink href="/about_us" class="nav-item uppercase-text"><EditableText Id="About_us_menu_item" EditMode="@EditModeService.IsEditing" /></NavLink>
+        </div>
+        <button class="navbar-toggler" @onclick="ToggleMenu">
+            ☰
+        </button>
+        <div class="mobile-menu" style="@(_isMenuOpen ? "display:flex;" : "display:none;")">
+            <NavLink href="/photo_gallery" class="nav-item uppercase-text" @onclick="ItemClicked"><EditableText Id="Photogallery_menu_item" EditMode="@EditModeService.IsEditing" /></NavLink>
+            <NavLink href="/price_list" class="nav-item uppercase-text" @onclick="ItemClicked"><EditableText Id="Services_menu_item" EditMode="@EditModeService.IsEditing" /></NavLink>
+            <NavLink href="/about_us" class="nav-item uppercase-text" @onclick="ItemClicked"><EditableText Id="About_us_menu_item" EditMode="@EditModeService.IsEditing" /></NavLink>
+        </div>
+    </nav>
+}
+
+@code {
+
+    #region Private Properties
+    private bool _isMenuOpen = false;
+    private bool isLoaded = false;
+    #endregion
+
+    #region Private Methods
+    private void ToggleMenu()
+    {
+        _isMenuOpen = !_isMenuOpen;
+    }
+    private void ItemClicked()
+    {
+        _isMenuOpen = false;
+    }
+    #endregion
+
+    #region Ctor
+    protected override async Task OnInitializedAsync()
+    {
+        await TranslationsService.LoadAsync();
+
+        EditModeService.OnEditModeChanged += HandleEditModeChanged;
+
+        isLoaded = true;
+    }
+    #endregion
+
+    #region Handle
+    private void HandleEditModeChanged()
+    {
+        InvokeAsync(StateHasChanged);
+    }
+    #endregion
+}
+

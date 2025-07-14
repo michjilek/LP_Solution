@@ -1,0 +1,32 @@
+﻿@* <link href="_content/OP_Razor_Components_Library/data/pricelist.json" rel="stylesheet" />
+<link href="_content/OP_Razor_Components_Library/data/pricelist.yaml" rel="stylesheet" /> *@
+@inject TranslationsService TranslationsService
+
+<div class="container">
+@if (PricelistItems == null)
+{
+        <p>Načítám data...</p>
+}
+else
+{
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@TranslationsService.GetText("Services_Service")</th>
+                    <th>@TranslationsService.GetText("Services_Description")</th>
+               @*          <th>Cena</th> *@
+                   </tr >
+                </thead>
+            <tbody>
+            @foreach (var item in PricelistItems)
+            {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Description</td>
+                      @*       <td>@item.Price</td> *@
+                        </tr>
+            }
+            </tbody>
+        </table>
+}
+</div>

@@ -1,0 +1,27 @@
+﻿@inject TranslationsService TranslationsService
+
+<select @onchange="OnLanguageChanged" class="language-switcher">
+    <option value="cs" selected="@IsSelected("cs")">Čeština</option>
+    <option value="en" selected="@IsSelected("en")">English</option>
+</select>
+
+@code {
+    [Parameter]
+    public EventCallback<string> LanguageChanged { get; set; }
+
+    [Parameter]
+    public string CurrentLanguage { get; set; } = "cs";
+
+    private async Task OnLanguageChanged(ChangeEventArgs e)
+    {
+        var selectedLanguage = e.Value?.ToString();
+        if (!string.IsNullOrWhiteSpace(selectedLanguage))
+        {
+            await LanguageChanged.InvokeAsync(selectedLanguage);
+            await TranslationsService.ChnageLanguageAsync(selectedLanguage);
+        }
+    }
+
+    private string? IsSelected(string lang) =>
+        lang == CurrentLanguage ? "selected" : null;
+}

@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Razor_Components_Library\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\OP_Razor_Components_Library.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OP_Razor_Components_Library.3gdf5rcoo4.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Razor_Components_Library\\wwwroot\\data\\pricelist.yaml",
+      "PackagePath": "staticwebassets\\data\\pricelist.yaml"
+    },
+    {
+      "Id": "D:\\OneDrive\\OP\\OP_projects\\LP\\VS_Project\\OP_Razor_Components_Library\\wwwroot\\js\\VirtualMirror\\VirtualMirror.js",
+      "PackagePath": "staticwebassets\\js\\VirtualMirror\\VirtualMirror.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.OP_Razor_Components_Library.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.OP_Razor_Components_Library.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.OP_Razor_Components_Library.props",
+      "PackagePath": "build\\OP_Razor_Components_Library.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.OP_Razor_Components_Library.props",
+      "PackagePath": "buildMultiTargeting\\OP_Razor_Components_Library.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.OP_Razor_Components_Library.props",
+      "PackagePath": "buildTransitive\\OP_Razor_Components_Library.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

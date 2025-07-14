@@ -1,0 +1,47 @@
+﻿@using Microsoft.Extensions.Hosting;
+@inject IHostEnvironment env;
+@inject TranslationsService TranslationsService;
+
+@if (EditMode)
+{
+    @if (_editing)
+    {
+        <textarea @bind="_value"></textarea>
+        <button @onclick="SaveAsync">Save</button>
+        <button @onclick="() => _editing = false">Cancel</button>
+    }
+    else
+    {
+        <span @onclick="() => _editing = true"
+              class="editable-span"
+              >@_value</span>
+    }
+}
+else
+{
+    <span>@_value</span>
+}
+
+@code {
+    [Parameter] public string Id { get; set; } = string.Empty;
+    [Parameter] public bool EditMode { get; set; } = false;
+
+    private string? _value;
+    private bool _editing = false;
+
+    // Method raised when parameters were set
+    protected override void OnParametersSet()
+    {
+        _value = TranslationsService.GetText(Id);
+    }
+
+    private async Task SaveAsync()
+    {
+        if (!string.IsNullOrEmpty(_value))
+        {
+            await TranslationsService.UpdateTranslationAsync(Id, _value, env.ContentRootPath);
+
+            _editing = false;
+        }
+    }
+}
