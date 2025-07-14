@@ -1,0 +1,62 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Components.Web
+@namespace Op_LP.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cnc obrabeni, obrabeni, soustruzeni, frezovani, řetezová kola, ozubena kola, kusova vyroba">
+    <title>LP Obrábění</title>
+    <base href="/" />
+
+    <link rel="shortcut icon" href="#" />
+
+    <!-- Favicon -->
+   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+   <link rel="shortcut icon" href="/favicon.ico" />
+   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+   <meta name="apple-mobile-web-app-title" content="LPobrabeni" />
+   <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Others -->
+    <link href="_content/OP_Pages_Library/css/app.css" rel="stylesheet" />
+    <link href="_content/OP_Pages_Library/css/index.css" rel="stylesheet" />
+    <link href="_content/OP_Pages_Library/css/general.css" rel="stylesheet" />
+
+    <!-- Soubor izolovaného CSS -->
+    <!-- V Op_LP.styles.css jsou naimporotvány všechna styles.css připojenýžch projektů, proto přidáváme zde pouze soubor styles.css hlavního projektu -->
+    <link href="Op_LP.styles.css" rel="stylesheet" />
+
+    <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
+
+</head>
+<body>
+    <component type="typeof(App)" render-mode="ServerPrerendered" />
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <!-- Blazor -->
+    <script src="_framework/blazor.server.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/General.js"></script> 
+</body>
+</html>
+
+@{
+    // Set Layout Page
+    Layout = "_Layout";
+}
