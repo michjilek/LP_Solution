@@ -99,3 +99,4 @@ D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Pages_Library\obj\Debug\net9.0\stati
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Pages_Library\obj\Debug\net9.0\scopedcss\Pages\EditYaml.razor.rz.scp.css
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Pages_Library\obj\Debug\net9.0\compressed\tompq45cbi-6i96v7valf.gz
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Pages_Library\obj\Debug\net9.0\compressed\xb5aacnghy-9ney34kuwl.gz
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Pages_Library\obj\Debug\net9.0\OP_Pages_Library.sourcelink.json

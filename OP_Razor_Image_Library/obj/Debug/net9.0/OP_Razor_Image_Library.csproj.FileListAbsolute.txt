@@ -68,3 +68,4 @@ D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Image_Library\obj\Debug\net9.0
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Image_Library\obj\Debug\net9.0\OP_Razor_Image_Library.pdb
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Image_Library\obj\Debug\net9.0\ref\OP_Razor_Image_Library.dll
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Image_Library\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Image_Library\obj\Debug\net9.0\OP_Razor_Image_Library.sourcelink.json

@@ -23,3 +23,4 @@ D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\obj\Debug\net9.0\OP_Db.dll
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\obj\Debug\net9.0\refint\OP_Db.dll
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\obj\Debug\net9.0\OP_Db.pdb
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\obj\Debug\net9.0\ref\OP_Db.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Db\obj\Debug\net9.0\OP_Db.sourcelink.json

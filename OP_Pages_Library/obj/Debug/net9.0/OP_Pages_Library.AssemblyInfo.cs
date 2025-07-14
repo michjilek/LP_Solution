@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OP_Pages_Library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1ac2f0a4c6d2419728e0eb3256ac6036809208a")]
 [assembly: System.Reflection.AssemblyProductAttribute("OP_Pages_Library")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OP_Pages_Library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

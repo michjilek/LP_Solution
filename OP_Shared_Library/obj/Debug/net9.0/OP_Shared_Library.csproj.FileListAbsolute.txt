@@ -23,3 +23,4 @@ D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Shared_Library\obj\Debug\net9.0\OP_S
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Shared_Library\obj\Debug\net9.0\refint\OP_Shared_Library.dll
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Shared_Library\obj\Debug\net9.0\OP_Shared_Library.pdb
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Shared_Library\obj\Debug\net9.0\ref\OP_Shared_Library.dll
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Shared_Library\obj\Debug\net9.0\OP_Shared_Library.sourcelink.json

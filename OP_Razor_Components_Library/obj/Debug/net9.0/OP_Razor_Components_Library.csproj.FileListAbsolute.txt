@@ -82,3 +82,4 @@ D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Components_Library\obj\Debug\n
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Components_Library\obj\Debug\net9.0\scopedcss\Components\EditableText\EditableText.razor.rz.scp.css
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Components_Library\obj\Debug\net9.0\compressed\w13fgn4flq-3gdf5rcoo4.gz
 D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Components_Library\obj\Debug\net9.0\compressed\a8as1kqxbi-3gdf5rcoo4.gz
+D:\OneDrive\OP\OP_projects\LP\VS_Project\OP_Razor_Components_Library\obj\Debug\net9.0\OP_Razor_Components_Library.sourcelink.json
